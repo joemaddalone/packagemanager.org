@@ -1,0 +1,42 @@
+body {
+  margin-top: 2.5rem;
+}
+
+.Card {
+  position:relative;
+}
+
+.Card:hover {
+  box-shadow: 0px 0px 4px #222;
+}
+
+.Card:hover:before, .Card:hover:after {
+    position:absolute;
+    padding: 0;
+    text-align: center;
+    z-index:-5;
+    content: "";
+    bottom: 10px;
+    width: 70%;
+    height: 20px;
+    box-shadow:
+      #000 0px 4px 21px,
+      #000 0px 0px 20px;
+  }
+
+
+.Card:hover:before {
+    right: 10px;
+    transform: rotate(4deg);
+
+  }
+.Card:hover:after {
+  left: 10px;
+  transform: rotate(-4deg);
+}
+
+
+
+.description{
+  min-height:8rem;
+}
