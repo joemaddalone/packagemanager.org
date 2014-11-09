@@ -17,7 +17,7 @@ define( function( require ){
           return 0;
         })
         .map(function(item, i){
-          return new Card({key:i, pm:item});
+          return new React.createFactory(Card)({key:i, pm:item});
         });
 
         return React.DOM.div(null, this.items);
@@ -25,7 +25,7 @@ define( function( require ){
     });
 
   APP.render = function(){
-    React.renderComponent(APP(), document.body);
+    React.render(React.createFactory(APP)(), document.body);
   };
 
   return APP;
