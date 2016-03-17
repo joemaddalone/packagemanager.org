@@ -14,6 +14,7 @@ define([], function(){
     {'title':'Nuget','description':'NuGet is a Visual Studio package manager.','img':'nuget.png','url':'http://wbond.net/sublime_packages/package_control'},
     {'title':'pub','description':'Explore packages here and install them using pub, the package manager for Dart.','img':'pub.png','url':'http://pub.dartlang.org'},
     {'title':'Vagrant','description':'It\'s a package manager, but the packages are VMs... crazy, right?.','img':'vagrant.png','url':'http://www.vagrantup.com/'},
-    {'title':'Homebrew','description':'The missing package manager for OS X','img':'homebrew.png','url':'http://brew.sh/'}
+    {'title':'Homebrew','description':'The missing package manager for OS X','img':'homebrew.png','url':'http://brew.sh/'},
+    {'title':'Atom','description':'Packages make Atom do amazing things.','img':'atom.png','url':'https://atom.io/packages'}
   ];
 });
