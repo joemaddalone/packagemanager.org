@@ -3,7 +3,7 @@ requirejs.config({
     appDir: '.',
     baseUrl: 'js',
     paths: {
-        'React': 'http://fb.me/react-0.12.0.min',
+        'React': 'https://unpkg.com/react@0.12.2/dist/react',
         'App': 'app/App',
         'Card': 'app/Card',
         'Packages': 'app/Packages'
